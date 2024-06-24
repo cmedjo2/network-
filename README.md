@@ -24,8 +24,8 @@ The devices we used for this project were the Wan-Cloud, Wan-Switch, FortiGate, 
    Verify the Win 10 workstation has leased a DHCP address from the LAN network.
 9. Test network connectivity by pinging LAN, WAN, and Google.
     Only LAN will respond, WAN, and Google will fail as the server has yet to learn their MAC address.
-10. from WIN 10 open GUI and configure the network interfaces, enable DNS, configurre the firewall system on DNS, configure DNS, create service object, configure firewall rules, then backup the firewall config.
-11.  ![image](https://github.com/cmedjo2/network-/assets/130260893/aeaca252-c782-42cf-aec0-2218b460719d)
+10. from WIN 10, open GUI and configure the network interfaces, enable DNS, configure the firewall system on DNS, configure DNS, create a service object, configure firewall rules, then back up the firewall config.
+ ![image](https://github.com/cmedjo2/network-/assets/130260893/aeaca252-c782-42cf-aec0-2218b460719d)
 ---
 ## Stage 2
 ### Build a Windows Domain for the small business environment 
@@ -40,7 +40,7 @@ The devices we used for this project were the Wan-Cloud, Wan-Switch, FortiGate, 
 ![image](https://github.com/cmedjo2/network-/assets/130260893/a1c1e7eb-f757-41a5-8e49-8a61a0ddc7b3)
 6. In Server Manager change the hostname to dc, which is short for domain controller, then change the system properties to the client Domain and reboot the server.
 7. once the server is up set up a Domain controller, which will be *Widgets.locaoldomain*. once done, restart the server to update.
-8. ![image](https://github.com/cmedjo2/network-/assets/130260893/82f40a7a-d105-44f3-8a6a-31c2ce7a9787)
+![image](https://github.com/cmedjo2/network-/assets/130260893/82f40a7a-d105-44f3-8a6a-31c2ce7a9787)
 9. Login to Widgets/administrator and set up an account for each team member, once created add each account to *domain admins* security group
 10. start Win 10, log in and add it to the domain.
       -Change the hostname to win10, then reboot.
