@@ -36,7 +36,7 @@ The devices we used for this project were the Wan-Cloud, Wan-Switch, FortiGate, 
 3. Log in as administrator after creating the new password.
 4. Set or change IP address of network adapter.
 ![image](https://github.com/cmedjo2/network-/assets/130260893/61225446-cdaf-433b-a864-4e271aab379a)
-5. Set the timezone and sync with the LAN interface IP on the firewall. This enables accurate time synchronization in each of the computers on the network.
+5. Set the timezone and sync with the LAN interface IP on the firewall, this enables accurate time synchronization in each of the computers on the network.
 ![image](https://github.com/cmedjo2/network-/assets/130260893/a1c1e7eb-f757-41a5-8e49-8a61a0ddc7b3)
 6. In Server Manager change the hostname to dc, which is short for domain controller, then change the system properties to the client Domain and reboot the server.
 7. once the server is up set up a Domain controller, which will be *Widgets.locaoldomain*. once done, restart the server to update.
